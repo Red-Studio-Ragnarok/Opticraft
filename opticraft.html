@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Opticraft</title>
+        <meta name="description" content="Opticraft a complete guide for an optimized 1.12.2 modded experience">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="opticrf.css">
+    </head>
+    <body>
+
+        <div class="header-div">
+            <img src="opticraft.webp" alt="Opticraft Logo">
+            <h1 class="title">Opticraft</h1>
+            <h2 class="title-desc">Opticraft is a complete guide for an optimized 1.12.2 modded experience.</h2>
+        </div>
+
+        <!-- Client & Server -->
+
+        <div class="box">
+            <h2 class="sides">Client and Server Mods</h2>
+            <ul class="tilesWrap">
+                <li>
+                    <h3>CensoredASM</h3>
+                    <p>
+                        CensoredASM is one of the most impactful mods in this guide, it aims at reducing the ram usage of minecraft making it faster and reducing the ram usage up to 4 times on big modpacks.
+                        It also prevent the game from crashing, and fixes bugs
+                    </p>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/mixin-booter/files/all" target="_blank">Require MixinBooter</a>
+                    <button onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/lolasm/files/all','_blank')">Download on Curseforge</button>
+                </li>
+                <li>
+                    <h3>FastWorkbench</h3>
+                    <p>
+                        FastWorkbench aims to improves performance of all crafting-related functions, it achives this by fixing bugs and caching recipes.
+                        It also removes the recipe book which mean that recipes are not forcibly synced on login which improve loging times by a lot.
+                    </p>
+                    <button onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/fastworkbench/files/all?filter-game-version=2020709689%3A6756','_blank')">Download on Curseforge</button>
+                </li>
+                <li>
+                    <h3>FoamFix</h3>
+                    <p>
+                        FoamFix also aims at reducing the ram usage of minecraft and reducing tps usage by doing networking optimization and fixing bugs.
+                        It also does other more minor optimizations.
+                    </p>
+                    <button onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod/files/all?filter-game-version=2020709689%3A6756','_blank')">Download on Curseforge</button>
+                </li>
+                <li>
+                    <h3>Phosphor</h3>
+                    <p>
+                        Phosphor aims at optimizating the lighting part of minecraft by entirly replacing the lighting engine, it results in improved fps and improved world generation speed.
+                    </p>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/opencubicchunks" target="_blank">Incompatible with Cubic Chunks</a>
+                    <button onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/phosphor-forge/files/all?filter-game-version=2020709689%3A6756','_blank')">Download on Curseforge</button>
+                </li>
+                <li>
+                    <h3>Sledgehammer</h3>
+                    <p>
+                        Sledgehammer aims at smashing out the stupid out of the client and the server, by optimizing and cleaning up client and server code.
+                        It speeds up and improves connection to servers, reduces network usage.
+                        It also prevent crashes, fixes bugs and quality of life improvement.
+                    </p>
+                    <button onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/sledgehammer/files/all?filter-game-version=2020709689%3A6756','_blank')">Download on Curseforge</button>
+                </li>
+                <li>
+                    <h3>Surge</h3>
+                    <p>
+                        Surge aims at optimizing load time by cleaning up Forge code and turning off debuging code.
+                        It also improve performance with sheeps and fix a bug with the anvil renaming.
+                    </p>
+                    <button onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/surge/files/all','_blank')">Download on Curseforge</button>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- Client Only -->
+
+        <div class="box">
+            <h2 class="sides">Client Only Mods</h2>
+            <ul class="tilesWrap">
+                <li>
+                    <h3>Entity Culling</h3>
+                    <p>
+                        Entity Culling aims to optimize rendering of entity and tile entity by skipping the rendering of those that are hidden.
+                    </p>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/mixin-booter/files/all" target="_blank">Require MixinBooter</a>
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/renderlib/files/all" target="_blank">Require RenderLib</a>
+                    <button onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/entity-culling/files/all?filter-game-version=2020709689%3A6756','_blank')">Download on Curseforge</button>
+                </li>
+                <li>
+                    <h3>OptiFine</h3>
+                    <p>
+                        Optifine aims to optimize rendering by optimizing rendering code.
+                        It also add support for shaders hd textures and more.
+                    </p>
+                    <button onclick="window.open('https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar','_blank')">Download on OptiFine.net</button>
+                </li>
+                <li>
+                    <h3>Particle Culling</h3>
+                    <p>
+                        Particle Culling aims to optimize rendering of particles by skipping the rendering of those that are hidden.
+                    </p>
+                    <button onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/particle-culling/files/all','_blank')">Download on Curseforge</button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Server Only -->
+
+        <div class="box">
+            <h2 class="sides">Server Only Mods (If you play singleplayer still install them)</h2>
+            <ul class="tilesWrap">
+                <li>
+                    <h3>AI Improvements</h3>
+                    <p>
+                        AI Improvements aims at optimizing AI code, it achieves this by optimizing entity code while preserving default entity behavior.
+                    </p>
+                    <button onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/ai-improvements/files/2450734','_blank')">Download on Curseforge</button>
+                </li>
+                <li>
+                    <h3>Dynamic View</h3>
+                    <p>
+                        Dynamic View aims to optimize server view distance by reducing it when the server lags and increasing it when the server has spare performance.
+                    </p>
+                    <button onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/dynamic-view/files/all?filter-game-version=1738749986%3A628','_blank')">Download on Curseforge</button>
+                </li>
+                <li>
+                    <h3>XP Orb Clump</h3>
+                    <p>
+                        XP Orb Clump aims at reducing the lag from XP orbs by clumping them together.
+                        The main difference between this and Clumps is that this doesn't add a new entity.
+                    </p>
+                    <button onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump/files/all','_blank')">Download on Curseforge</button>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

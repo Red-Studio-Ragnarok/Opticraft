@@ -90,6 +90,12 @@ img {
 	top: -10px;
 	position: relative;
 }
+.tilesWrap li h4 {
+	font-size: 18px;
+	color: #E01A4F;
+	top: -10px;
+	position: relative;
+}
 .tilesWrap li button {
 	background: transparent;
 	border: 2px solid #F9F8F8;
