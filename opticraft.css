@@ -8,7 +8,7 @@ img {
 	position: relative;
 	width:60px;
 	height:112px;
-	top: 20px;
+	top: 30px;
 	left: 10px;
 }
 
@@ -18,7 +18,7 @@ img {
 	position: static;
 	margin: 0% 0% 0% 10%;
 	width: 80%;
-	height: 150px;
+	height: 220px;
 }
 
 .title {
@@ -31,6 +31,12 @@ img {
     position: relative;
     padding: 0px 0px 0px 92px;
     top: -140px;
+    color: #F9F8F8;
+}
+.version {
+    position: relative;
+    padding: 0px 0px 0px 92px;
+    top: -160px;
     color: #F9F8F8;
 }
 
