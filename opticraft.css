@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+body {
+	background: #141617;
+	font-family: 'Nunito';
+}
+img {
+	position: relative;
+	width:60px;
+	height:112px;
+	top: 20px;
+	left: 10px;
+}
+
+
+
+.header-div {
+	position: static;
+	margin: 0% 0% 0% 10%;
+	width: 80%;
+	height: 150px;
+}
+
+.title {
+    position: relative;
+    padding: 0px 0px 0px 90px;
+	top: -110px;
+    color: #F9F8F8;
+}
+.title-desc {
+    position: relative;
+    padding: 0px 0px 0px 92px;
+    top: -140px;
+    color: #F9F8F8;
+}
+
+
+
+.box {
+	position: sticky;
+	margin: -1% 0% 0% 10%;
+	width: 80%;
+	background-color: #1A1C1D;
+	border-radius: 20px;
+}
+
+.sides {
+	position: relative;
+	top: 30px;
+    left: 40px;
+    color: #F9F8F8;
+}
+
+.tilesWrap {
+	padding: 1%;
+	margin: 50px auto;
+	list-style: none;
+	text-align: center;
+}
+.tilesWrap li {
+	display: inline-block;
+	width: 20%;
+	min-width: 200px;
+	max-width: 230px;
+	padding: 80px 20px 40px;
+	position: relative;
+	vertical-align: top;
+	margin: 10px;
+	min-height: 25vh;
+	background: #262a2b;
+	border: 1px solid #252727;
+	text-align: left;
+	border-radius: 25px 0px 25px 0px;
+}
+.tilesWrap li h3 {
+	margin-top: -25px;
+	font-size: 20px;
+	color: #F9F8F8;
+	margin-bottom: 0px;
+}
+.tilesWrap li p {
+	font-size: 16px;
+	line-height: 18px;
+	color: #F9F8F8;
+	margin-top: 5px;
+}
+.tilesWrap li a {
+	font-size: 18px;
+	color: #E01A4F;
+	top: -10px;
+	position: relative;
+}
+.tilesWrap li button {
+	background: transparent;
+	border: 2px solid #F9F8F8;
+	padding: 10px 10px;
+	color: #F9F8F8;
+	border-radius: 6px;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+	transform: translateY(-40px);
+	opacity: 0;
+	cursor: pointer;
+	overflow: hidden;
+}
+.tilesWrap li button:before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 120%;
+	background: #F9F8F8;
+	top: 0;
+	opacity: 0;
+	left: -140px;
+	border-radius: 0 20px 20px 0;
+	z-index: -1;
+	transition: all 0.3s ease-in-out;
+	
+}
+.tilesWrap li:hover button {
+	transform: translateY(5px);
+	opacity: 1;
+}
+.tilesWrap li button:hover {
+	color: #262a2b;
+}
+.tilesWrap li button:hover:before {
+	left: 0;
+	opacity: 1;
+}
+.tilesWrap li:before {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	z-index: -1;
+	background: #F9F8F8;
+	transform: skew(2deg, 2deg);
+}
+.tilesWrap li:before {
+	background: #E01A4F;
+	background: -webkit-linear-gradient(to right, #E01A4F, #F9C22E);
+	background: linear-gradient(to right, #E01A4F, #F9C22E);
+}
