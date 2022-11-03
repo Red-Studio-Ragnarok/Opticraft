@@ -10,6 +10,9 @@
 	.title-desc {
 		color: #141617;
 	}
+	.desc {
+		color: #141617;
+	}
 	.version {
 		color: #141617;
 	}
@@ -52,7 +55,13 @@
 	.title-desc {
 		color: #F9F8F8;
 	}
+	.desc {
+		color: #F9F8F8;
+	}
 	.version {
+		color: #F9F8F8;
+	}
+	.issues {
 		color: #F9F8F8;
 	}
 
@@ -115,20 +124,31 @@ img {
     padding: 0px 0px 0px 92px;
     top: -140px;
 }
+.desc {
+    position: relative;
+    padding: 0px 0px 0px 92px;
+    top: -150px;
+}
+.desc-span {
+	color: #E01A4F;
+}
+.issues {
+	color: #E01A4F;
+	transition: text-shadow 0.5s;
+}
+.issues:hover {
+	text-shadow: 0px 0px 10px #E01A4F;
+}
 .version {
     position: relative;
     padding: 0px 0px 0px 92px;
     top: -160px;
 	font-size: 19px;
-	text-decoration: none;
+	transition: text-shadow 0.5s;
 }
 .version:hover {
-    position: relative;
-    padding: 0px 0px 0px 92px;
-    top: -160px;
-	font-size: 19px;
-	text-decoration: none;
 	color: #E01A4F;
+	text-shadow: 0px 0px 10px #E01A4F;
 }
 
 
@@ -170,6 +190,13 @@ img {
 	font-size: 20px;
 	margin-bottom: 0px;
 }
+.tilesWrap li h8 {
+	font-size: 18px;
+	color: #E01A4F;
+	top: -10px;
+	position: relative;
+	display: block;
+}
 .tilesWrap li p {
 	font-size: 16px;
 	line-height: 18px;
@@ -180,12 +207,7 @@ img {
 	color: #E01A4F;
 	top: -10px;
 	position: relative;
-}
-.tilesWrap li h4 {
-	font-size: 18px;
-	color: #E01A4F;
-	top: -10px;
-	position: relative;
+	display: block;
 }
 .tilesWrap li button {
 	background: transparent;
@@ -237,4 +259,17 @@ img {
 	background: #E01A4F;
 	background: -webkit-linear-gradient(to right, #E01A4F, #F9C22E);
 	background: linear-gradient(to right, #E01A4F, #F9C22E);
+}
+
+.censored {
+	transition: filter 1s;
+}
+.censored:hover {
+	filter: blur(4px);
+}
+.phosphor {
+	transition: text-shadow 1s;
+}
+.phosphor:hover {
+	text-shadow: 0px 0px 20px #F9C22E;
 }
