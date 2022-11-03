@@ -10,7 +10,8 @@ Opticraft a complete guide for an optimized 1.12.2 modded experience
 Let's define precisely what is an optimization mod:
 
 It improves the game by either improving performance (making it faster) or making it more ressource efficient (using less of your CPU/GPU/etc.).
-But it needs to do so without removing a feature or making said feature worse.
+
+But it needs to do so without removing a feature or making said feature worse or in the case of making the game more ressource efficient it needs to do so without reducing performance.
 
 ## Why?
 
