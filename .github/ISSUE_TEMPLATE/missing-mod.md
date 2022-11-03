@@ -23,7 +23,7 @@ Ex: SuperOptimizationMod optimizes [...] and fixes [...].
 
 ## Link to the **real** mod page
 
-***Just the link to the **real** page of the mod **no 9minecraft or other malware site**
+***Just the link to the real page of the mod no 9minecraft or other malware site***
 
 Ex: https://www.curseforge.com/minecraft/mc-mods/fbp
 
