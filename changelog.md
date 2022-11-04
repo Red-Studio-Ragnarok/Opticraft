@@ -6,8 +6,8 @@ Opticraft now includes bug fix mods!
 
 ## Optimizations Mods Added
 
-- Added Nothirium
-- Added Multithreaded Noise
+- Nothirium
+- Multithreaded Noise
 
 ## Bug Fix Mods Added
 
