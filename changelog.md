@@ -1,3 +1,15 @@
+# V1.4
+
+## Optimizations Mods Replaced
+
+- Phoshor got replaced with an updated fork Hesperus which fixes crashes and mod conflicts
+
+# Added
+
+- Added warning about Entity Culling
+
+---
+
 # V1.3
 
 ## Highlight
