@@ -1,3 +1,38 @@
+# V1.5
+
+## Highlight
+
+Universal Tweaks replaced mods in Opticraft with even better optimizations!
+
+## Mods Removed
+
+- AI Improvements
+
+## Added
+
+- Added "Not included in Opticraft instace" to McMouser
+
+## Changed
+
+- Changed Universal Tweaks download URL from GitHub to Curseforge
+- Sledgehammer download URL now links to the Thin jar which doesn't include mixin libraries & added "Require MixinBooter"
+- Removed the "Also" and replaced modpack with "instance" in "Also not included in Opticraft modpack."
+
+## Fixed
+
+- Added "Require Placebo" to FastWorkbench
+
+---
+
+# V1.4.1
+
+## Fixed
+
+- Hesperus download URL was still Phoshpor
+- Fixed Spacing
+
+---
+
 # V1.4
 
 ## Optimizations Mods Replaced
