@@ -1,3 +1,11 @@
+# V1.5.1
+
+## Fixed
+
+- Detail button still being here when I removed all of my experimentations
+
+---
+
 # V1.5
 
 ## Highlight
