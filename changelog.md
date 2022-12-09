@@ -1,5 +1,9 @@
 # V1.5.2
 
+## Changed
+
+- Changed CensoredASM download URL from Curseforge to GitHub
+
 ## Fixed
 
 - Typo
