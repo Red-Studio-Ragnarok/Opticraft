@@ -1,3 +1,11 @@
+# V1.5.3
+
+## Changed
+
+- Changed CensoredASM download URL from GitHub to Curseforge
+
+---
+
 # V1.5.2
 
 ## Changed
