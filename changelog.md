@@ -1,3 +1,20 @@
+# V1.6
+
+## Changed
+
+- Universal Tweaks description to be wider and shorter
+
+## Mod Removed
+
+- BlockFire (Superseded by Universal Tweaks)
+
+## Internal
+
+- Moved sources to a dedicated `src` folder
+- Moved assets to a dedicated `assets` folder
+
+---
+
 # V1.5.3
 
 ## Changed
@@ -22,7 +39,7 @@
 
 ## Fixed
 
-- Detail button still being here when I removed all of my experimentations
+- Detail button still being here when I removed all of my experimentation's
 
 ---
 
@@ -34,11 +51,11 @@ Universal Tweaks replaced mods in Opticraft with even better optimizations!
 
 ## Mods Removed
 
-- AI Improvements
+- AI Improvements (Superseded by Universal Tweaks)
 
 ## Added
 
-- Added "Not included in Opticraft instace" to McMouser
+- Added "Not included in Opticraft instance" to McMouser
 
 ## Changed
 
@@ -56,7 +73,7 @@ Universal Tweaks replaced mods in Opticraft with even better optimizations!
 
 ## Fixed
 
-- Hesperus download URL was still Phoshpor
+- Hesperus download URL was still Phosphor
 - Fixed Spacing
 
 ---
@@ -65,7 +82,7 @@ Universal Tweaks replaced mods in Opticraft with even better optimizations!
 
 ## Optimizations Mods Replaced
 
-- Phoshor got replaced with an updated fork Hesperus which fixes crashes and mod conflicts
+- Phosphor got replaced with an updated fork Hesperus which fixes crashes and mod conflicts
 
 # Added
 
