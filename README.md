@@ -1,6 +1,8 @@
 [![Discord](https://img.shields.io/discord/807316234436608020?color=586AEA&style=for-the-badge&label=Discord&logo=discord)](https://discord.gg/hKpUYx7VwS)
 [![Forge Version](https://img.shields.io/badge/Minecraft%20Forge-14.23.5.2860-yellow.svg?style=for-the-badge)](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html)
 
+<a href="https://www.buymeacoffee.com/desoroxxx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 # Opticraft
 
 Opticraft a complete guide for an optimized 1.12.2 modded experience
