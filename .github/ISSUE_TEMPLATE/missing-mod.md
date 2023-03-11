@@ -1,7 +1,7 @@
 ---
 name: Missing Mod
 about: Is a mod missing from Opticraft, create an issue and I will add it.
-title: "[Missing Mod] (Replace This By The Name Of The Mod)"
+title: ''
 labels: ''
 assignees: JustDesoroxxx
 
@@ -32,4 +32,4 @@ Ex: https://www.curseforge.com/minecraft/mc-mods/fbp
 - [ ] Did you verify if the mod actually does what it says
 - [ ] Are affiliated in any way with the mod (Being the dev, knowing the devs, etc.)
 
-> Additional informations is not eliminatory criteria it just helps me in my research
+> Additional information is not a criteria in any way it just helps me in my research
