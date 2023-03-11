@@ -19,6 +19,12 @@
 		background: #FAFAFA;
 		border: 1px solid #F4F4F4;
 	}
+	.tilesWrap li p::before {
+		background: linear-gradient(to bottom, transparent, #FAFAFA);
+	}
+	.tilesWrap li input {
+		border: 2px solid #141617;
+	}
 	.tilesWrap li button {
 		border: 2px solid #141617;
 	}
@@ -45,6 +51,13 @@
 		background: #262a2b;
 		border: 1px solid #252727;
 	}
+	.tilesWrap li p::before {
+		background: linear-gradient(to bottom, transparent, #262a2b);
+	}
+	.tilesWrap li input {
+		border: 2px solid #F9F8F8;
+		color: #F9F8F8;
+	}
 	.tilesWrap li button {
 		border: 2px solid #F9F8F8;
 		color: #F9F8F8;
@@ -59,13 +72,6 @@
 body {
 	font-family: 'Nunito';
 }
-img {
-	position: relative;
-	width:60px;
-	height:112px;
-	top: 30px;
-	left: 10px;
-}
 
 
 
@@ -76,6 +82,13 @@ img {
 	height: 220px;
 }
 
+.logo {
+	position: relative;
+	width:60px;
+	height:112px;
+	top: 30px;
+	left: 10px;
+}
 .title {
     position: relative;
     padding: 0px 0px 0px 90px;
@@ -159,10 +172,41 @@ img {
 	position: relative;
 	display: block;
 }
-.tilesWrap li p {
+.tilesWrap li p:has(+ .expand:checked) {
 	font-size: 16px;
-	line-height: 18px;
 	margin-top: 5px;
+
+	--max-lines: 10;
+	--line-height: 1.125;
+
+	max-height: calc(var(--max-lines) * 16px * var(--line-height));
+	line-height: var(--line-height);
+
+	overflow: hidden;
+	position: relative;
+}
+.tilesWrap li p::before {
+	content: "";
+	position: absolute;
+	height: calc(16px * var(--line-height));
+	width: 100%;
+	bottom: 0;
+	pointer-events: none;
+}
+.tilesWrap li input {
+	background: transparent;
+	padding: 10px 10px;
+	border-radius: 6px;
+	position: relative;
+	cursor: pointer;
+	appearance: none;
+	margin-bottom: 20px;
+}
+.tilesWrap li input::before {
+	content: "Expand";
+}
+.tilesWrap li input:checked::before {
+	content: "Collapse";
 }
 .tilesWrap li a {
 	font-size: 18px;
@@ -193,7 +237,7 @@ img {
 	border-radius: 0 20px 20px 0;
 	z-index: -1;
 	transition: all 0.3s ease-in-out;
-	
+
 }
 .tilesWrap li:hover button {
 	transform: translateY(5px);

@@ -1,3 +1,14 @@
+# V1.7
+
+## Added
+
+- Buy Me a Coffee widget
+- Long descriptions are now collapsed by default you can expand them again by clicking the expand button
+
+## Mods Removed
+
+- FastWorkbench (Superseded by Universal Tweaks)
+
 # V1.6
 
 ## Changed
