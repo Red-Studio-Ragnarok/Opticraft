@@ -1,145 +1,163 @@
-# V1.7
+# Changelog
 
-## Added
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project follows to [Ragnarök Versioning Convention](https://gist.github.com/JustDesoroxxx/5d4a45785ce19a6653ba99f72325c703).
+
+## V1.8 - 2023-4-5
+
+### Fixed
+
+- Fixed typos in Universal Tweaks description
+- Fixed space between "here" and a period
+
+---
+
+## V1.7 - 2023-3-11
+
+### Added
 
 - Buy Me a Coffee widget
 - Long descriptions are now collapsed by default you can expand them again by clicking the expand button
 
-## Mods Removed
+### Mods Removed
 
 - FastWorkbench (Superseded by Universal Tweaks)
 
-# V1.6
+---
 
-## Changed
+## V1.6 - 2023-1-21
+
+### Changed
 
 - Universal Tweaks description to be wider and shorter
 
-## Mod Removed
+### Mod Removed
 
 - BlockFire (Superseded by Universal Tweaks)
 
-## Internal
+### Internal
 
 - Moved sources to a dedicated `src` folder
 - Moved assets to a dedicated `assets` folder
 
 ---
 
-# V1.5.3
+## V1.5.3 - 2022-12-15
 
-## Changed
+### Changed
 
 - Changed CensoredASM download URL from GitHub to Curseforge
 
 ---
 
-# V1.5.2
+## V1.5.2 - 2022-12-9
 
-## Changed
+### Changed
 
 - Changed CensoredASM download URL from Curseforge to GitHub
 
-## Fixed
+### Fixed
 
-- Typo
+- Fixed typo in Opticraft description
 
 ---
 
-# V1.5.1
+## V1.5.1 - 2022-11-21
 
-## Fixed
+### Fixed
 
 - Detail button still being here when I removed all of my experimentation's
 
 ---
 
-# V1.5
+## V1.5 - 2022-11-20
 
-## Highlight
+### Highlight
 
 Universal Tweaks replaced mods in Opticraft with even better optimizations!
 
-## Mods Removed
+### Mods Removed
 
 - AI Improvements (Superseded by Universal Tweaks)
 
-## Added
+### Added
 
 - Added "Not included in Opticraft instance" to McMouser
 
-## Changed
+### Changed
 
 - Changed Universal Tweaks download URL from GitHub to Curseforge
 - Sledgehammer download URL now links to the Thin jar which doesn't include mixin libraries & added "Require MixinBooter"
 - Removed the "Also" and replaced modpack with "instance" in "Also not included in Opticraft modpack."
 
-## Fixed
+### Fixed
 
 - Added "Require Placebo" to FastWorkbench
 
 ---
 
-# V1.4.1
+## V1.4.1 - 2022-11-12 [YANKED]
 
-## Fixed
+### Fixed
 
 - Hesperus download URL was still Phosphor
 - Fixed Spacing
 
 ---
 
-# V1.4
+## V1.4 - 2022-11-12
 
-## Optimizations Mods Replaced
+### Optimizations Mods Replaced
 
 - Phosphor got replaced with an updated fork Hesperus which fixes crashes and mod conflicts
 
-# Added
+## Added
 
 - Added warning about Entity Culling
 
 ---
 
-# V1.3
+## V1.3 - 2022-11-3
 
-## Highlight
+### Highlight
 
 Opticraft now includes bug fix mods!
 
-## Optimizations Mods Added
+### Optimizations Mods Added
 
 - Nothirium
 - Multithreaded Noise
 
-## Bug Fix Mods Added
+### Bug Fix Mods Added
 
 - BlockFire
 - DupeFix Project
 - McMouser
 - NetherPortalFix
 
-## Added
+### Added
 
 - Added warning that only optimization mods on Opticraft should be used.
 - Added link to make a GitHub issue to indicate a missing mod.
 
 - Added easter eggs (they are pretty obvious)
 
-## Fixed
+### Fixed
 
 - The download button for Universal Tweaks now properly indicate "Download on GitHub"
 - Changed V1.2 changelog to be more clear and readable
 
 ---
 
-# V1.2
+## V1.2 - 2022-11-2
 
 - Replaced Surge with Universal Tweaks as since Pre-Release 1 it fully replace Surge with other performance benefit and it is getting updated.
 
 ---
 
-# V1.1
+## V1.1 - 2022-10-27
 
 - Added Light Mode
 - Added Changelog
