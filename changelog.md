@@ -5,7 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Ragnarök Versioning Convention](https://gist.github.com/JustDesoroxxx/5d4a45785ce19a6653ba99f72325c703).
 
-## V1.8 - 2023-4-5
+## Opticraft Version 1.9 - 2023-5-29
+
+### Added
+
+- Added a favicon
+
+### Fixed
+
+- Fixed a majority of links to Curse Forge being broken
+- Spacing issues leading to space having underlines
+- Phosphor easter-egg being applied to "Hesperus" instead of "Phosphor"
+- Corrected a lot of typos
+- Unknown html tag
+
+---
+
+## Opticraft Version 1.8 - 2023-4-5
 
 ### Fixed
 
@@ -14,7 +30,7 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 
 ---
 
-## V1.7 - 2023-3-11
+## Opticraft Version 1.7 - 2023-3-11
 
 ### Added
 
@@ -27,7 +43,7 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 
 ---
 
-## V1.6 - 2023-1-21
+## Opticraft Version 1.6 - 2023-1-21
 
 ### Changed
 
@@ -44,7 +60,7 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 
 ---
 
-## V1.5.3 - 2022-12-15
+## Opticraft Version 1.5.3 - 2022-12-15
 
 ### Changed
 
@@ -52,7 +68,7 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 
 ---
 
-## V1.5.2 - 2022-12-9
+## Opticraft Version 1.5.2 - 2022-12-9
 
 ### Changed
 
@@ -64,7 +80,7 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 
 ---
 
-## V1.5.1 - 2022-11-21
+## Opticraft Version 1.5.1 - 2022-11-21
 
 ### Fixed
 
@@ -72,7 +88,7 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 
 ---
 
-## V1.5 - 2022-11-20
+## Opticraft Version 1.5 - 2022-11-20
 
 ### Highlight
 
@@ -98,7 +114,7 @@ Universal Tweaks replaced mods in Opticraft with even better optimizations!
 
 ---
 
-## V1.4.1 - 2022-11-12 [YANKED]
+## Opticraft Version 1.4.1 - 2022-11-12 [YANKED]
 
 ### Fixed
 
@@ -107,7 +123,7 @@ Universal Tweaks replaced mods in Opticraft with even better optimizations!
 
 ---
 
-## V1.4 - 2022-11-12
+## Opticraft Version 1.4 - 2022-11-12
 
 ### Optimizations Mods Replaced
 
@@ -119,7 +135,7 @@ Universal Tweaks replaced mods in Opticraft with even better optimizations!
 
 ---
 
-## V1.3 - 2022-11-3
+## Opticraft Version 1.3 - 2022-11-3
 
 ### Highlight
 
@@ -151,13 +167,13 @@ Opticraft now includes bug fix mods!
 
 ---
 
-## V1.2 - 2022-11-2
+## Opticraft Version 1.2 - 2022-11-2
 
 - Replaced Surge with Universal Tweaks as since Pre-Release 1 it fully replace Surge with other performance benefit and it is getting updated.
 
 ---
 
-## V1.1 - 2022-10-27
+## Opticraft Version 1.1 - 2022-10-27
 
 - Added Light Mode
 - Added Changelog
