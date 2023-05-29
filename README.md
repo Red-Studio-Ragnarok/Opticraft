@@ -22,6 +22,10 @@ Because Minecraft is badly optimized so for the best experience, we need a pleth
 
 Also, I made this since all the other guides are either uncomplete or filled with mods that are useless or that makes the performance worse.
 
+##### Credits
+
+This projects uses my [favorite minifiers](https://github.com/stars/Desoroxxx/lists/minifiers)
+
 ## Want to have your own mod or support me?
 
 If you are looking for a mod but do not have the development skills or time, consider commissioning me!
