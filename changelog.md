@@ -10,6 +10,7 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 ### Added
 
 - VintageFix
+- Valkyrie
 
 ### Changed
 
@@ -52,7 +53,7 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 ### Added
 
 - Buy Me a Coffee widget
-- Long descriptions are now collapsed by default you can expand them again by clicking the expand button
+- Long descriptions are now collapsed by default, you can expand them again by clicking the expand button
 
 ### Removed
 
@@ -81,7 +82,7 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 
 ### Changed
 
-- Changed CensoredASM download URL from GitHub to Curseforge
+- Changed CensoredASM download URL from GitHub to CurseForge
 
 ---
 
@@ -89,7 +90,7 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 
 ### Changed
 
-- Changed CensoredASM download URL from Curseforge to GitHub
+- Changed CensoredASM download URL from CurseForge to GitHub
 
 ### Fixed
 
@@ -117,8 +118,8 @@ Universal Tweaks replaced mods in Opticraft with even better optimizations!
 
 ### Changed
 
-- Changed Universal Tweaks download URL from GitHub to Curseforge
-- Sledgehammer download URL now links to the Thin jar which doesn't include mixin libraries & added "Require MixinBooter"
+- Changed Universal Tweaks download URL from GitHub to CurseForge
+- Sledgehammer download URL now links to the Thin jar, which doesn't include mixin libraries & added "Require MixinBooter"
 - Removed the "Also" and replaced modpack with "instance" in "Also not included in Opticraft modpack."
 
 ### Fixed
@@ -174,19 +175,18 @@ Opticraft now includes bug fix mods!
 
 - Added warning that only optimization mods on Opticraft should be used.
 - Added link to make a GitHub issue to indicate a missing mod.
-
-- Added easter eggs (they are pretty obvious)
+- Added Easter eggs
 
 ### Fixed
 
-- The download button for Universal Tweaks now properly indicate "Download on GitHub"
+- The download button for Universal Tweaks now properly indicates "Download on GitHub"
 - Changed V1.2 changelog to be more clear and readable
 
 ---
 
 ## Opticraft Version 1.2 - 2022-11-2
 
-- Replaced Surge with Universal Tweaks as since Pre-Release 1 it fully replace Surge with other performance benefit and it is getting updated.
+- Replaced Surge with Universal Tweaks as since Pre-Release 1 it fully replaces Surge with another performance benefit, and it is getting updated.
 
 ---
 
