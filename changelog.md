@@ -7,12 +7,17 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 
 ## Opticraft Version 1.10 - 2023-7-15
 
+### Added
+
+- VintageFix
+
 ### Changed
 
 - Improved description of Hesperus
 
 ### Removed
 
+- FoamFix (Superseded by VintageFix)
 - Multithreaded Noise (This mod hasn't been updated for years, and I wasn't able to notice a measurable difference with it installed with all the other mods in Opticraft installed)
 
 ----
