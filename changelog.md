@@ -9,8 +9,9 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 
 ### Added
 
-- VintageFix
-- Valkyrie
+- Added VintageFix
+- Added Valkyrie
+- Added warning to DupeFix Project about being incompatible with MixinBooter 8 
 
 ### Changed
 
