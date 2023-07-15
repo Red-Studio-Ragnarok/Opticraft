@@ -17,6 +17,7 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 
 - Renamed XP Orb Clump to Fixeroo
 - Updated Fixeroo description
+- Updated Sledgehammer link to the latest Sledgehammer thin version
 - Improved description of Hesperus
 - Improved punctuation of the Universal Tweaks description
 - Improved punctuation of the CensoredASM description
