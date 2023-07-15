@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Ragnarök Versioning Convention](https://gist.github.com/JustDesoroxxx/5d4a45785ce19a6653ba99f72325c703).
 
+## Opticraft Version 1.10 - 2023-7-15
+
+### Removed
+
+- Multithreaded Noise (This mod hasn't been updated for years, and I wasn't able to notice a measurable difference with it installed with all the other mods in Opticraft installed)
+
+----
+
 ## Opticraft Version 1.9 - 2023-5-29
 
 ### Added
