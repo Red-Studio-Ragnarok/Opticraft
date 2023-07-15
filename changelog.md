@@ -37,7 +37,7 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 - Buy Me a Coffee widget
 - Long descriptions are now collapsed by default you can expand them again by clicking the expand button
 
-### Mods Removed
+### Removed
 
 - FastWorkbench (Superseded by Universal Tweaks)
 
@@ -94,10 +94,6 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 
 Universal Tweaks replaced mods in Opticraft with even better optimizations!
 
-### Mods Removed
-
-- AI Improvements (Superseded by Universal Tweaks)
-
 ### Added
 
 - Added "Not included in Opticraft instance" to McMouser
@@ -111,6 +107,10 @@ Universal Tweaks replaced mods in Opticraft with even better optimizations!
 ### Fixed
 
 - Added "Require Placebo" to FastWorkbench
+
+### Removed
+
+- AI Improvements (Superseded by Universal Tweaks)
 
 ---
 
