@@ -15,6 +15,7 @@ and this project follows to [Ragnarök Versioning Convention](https://gist.githu
 
 ### Changed
 
+- Renamed XP Orb Clump to Fixeroo
 - Improved description of Hesperus
 - Improved punctuation of the Universal Tweaks description
 - Improved punctuation of the CensoredASM description
