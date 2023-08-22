@@ -146,16 +146,21 @@ body {
 	margin: 50px auto;
 	list-style: none;
 	text-align: center;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 .tilesWrap li {
 	display: inline-block;
+	flex: 1;
 	width: 20%;
 	min-width: 200px;
 	max-width: 230px;
 	padding: 80px 20px 40px;
 	position: relative;
 	vertical-align: top;
-	margin: 10px;
+	margin: 15px;
 	min-height: 25vh;
 	text-align: left;
 	border-radius: 25px 0px 25px 0px;
@@ -173,14 +178,10 @@ body {
 	display: block;
 }
 .tilesWrap li p:has(+ .expand:checked) {
-	font-size: 16px;
-	margin-top: 5px;
-
 	--max-lines: 10;
-	--line-height: 1.125;
+	--line-height: 1.1;
 
 	max-height: calc(var(--max-lines) * 16px * var(--line-height));
-	line-height: var(--line-height);
 
 	overflow: hidden;
 	position: relative;

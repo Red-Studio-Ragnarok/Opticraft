@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Ragnarök Versioning Convention](https://shor.cz/ragnarok_versioning_convention).
 
+## Opticraft Version 1.11 2023-8-22
+
+### Changed
+
+- Updated Universal Tweaks description to reflect the inclusion of the DupeFix Project
+- Made all boxes in the same category have the same size
+- Increased the margin between the boxes
+- Removed parts of Universal Tweaks description because it was too verbose
+- Improved parts of Universal Tweaks description
+
+## Fixed
+
+- Fixed descriptions having different line height when expanded
+
+### Removed
+
+- DupeFix Project (Included in Universal Tweaks starting with version 1.8)
+
+----
+
 ## Opticraft Version 1.10 2023-7-16
 
 ### Added
