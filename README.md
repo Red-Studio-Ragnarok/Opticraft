@@ -26,6 +26,10 @@ Also, I made this since all the other guides are either uncomplete or filled wit
 
 This projects uses my [favorite minifiers](https://github.com/stars/Desoroxxx/lists/minifiers)
 
+---
+
+[![BisectHostingPromoBanner](https://www.bisecthosting.com/partners/custom-banners/d410513a-9aee-467a-96eb-88eb0976af9d.webp)](https://bisecthosting.com/Desoroxxx?r=Opticraft+GitHub)
+
 ## Want to have your own mod or support me?
 
 If you are looking for a mod but do not have the development skills or time, consider commissioning me!
