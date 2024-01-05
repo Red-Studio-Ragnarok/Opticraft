@@ -3,7 +3,9 @@
 
 # Opticraft
 
-A Complete Guide for an Optimized 1.12.2 Modded Experience
+Opticraft is a complete guide and modpack, for an optimized 1.12.2 experience, it does not impact any vanilla feature or other mods features, it only optimizes the game.
+
+It is useful for everybody, whether you are a player or a modpack creator, it is good to use Opticraft.
 
 ## First Thing First
 
