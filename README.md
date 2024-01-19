@@ -11,7 +11,7 @@ It is useful for everybody, whether you are a player or a modpack creator, it is
 
 Let's define precisely what an optimization mod is:
 
-An optimization mod enhances Minecraft by boosting performance (speeding it up) or increasing resource efficiency (minimizing CPU/GPU usage).
+An optimization mod enhances Minecraft by boosting performance (speeding it up) or increasing resource efficiency (minimizing CPU/GPU/RAM/VRAM usage).
 This must be achieved without eliminating or degrading any existing features. In terms of resource efficiency, the enhancement should not compromise game performance.
 
 ## Why?
