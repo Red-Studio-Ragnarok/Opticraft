@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows to [Ragnarök Versioning Convention](https://shor.cz/ragnarok_versioning_convention).
 
+## Opticraft Version 1.13 2024-02-05
+
+### Added
+
+- Added the `Not included in Opticraft instance.` line on Nothirium, OptiFine, Dynamic View, NetherPortalFix 
+
+### Changed
+
+- Updated the summary
+- Updated Sledgehammer link
+
+### Removed
+
+- Valkyrie (Will maybe come back but isn't stable and useful enough yet)
+
 ## Opticraft Version 1.12 2023-10-10
 
 ### Added
