@@ -50,7 +50,7 @@ and this project follows to [Ragnarök Versioning Convention](https://shor.cz/ra
 - Removed parts of Universal Tweaks description because it was too verbose
 - Improved parts of Universal Tweaks description
 
-## Fixed
+### Fixed
 
 - Fixed descriptions having different line height when expanded
 
