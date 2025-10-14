@@ -7,6 +7,10 @@ and this project follows to [Ragnarök Versioning Convention](https://shor.cz/ra
 
 ## [UNRELEASED] Opticraft Version 1.14
 
+### Fixed
+
+- Fixed the collapse/expand button (By [ceilingash](https://github.com/ceilingash) in [#23](https://github.com/Red-Studio-Ragnarok/Opticraft/pull/23))
+
 ### Removed
 
 - NetherPortalFix (Included in Universal Tweaks starting with version 1.15)
