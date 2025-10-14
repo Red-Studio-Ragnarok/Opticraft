@@ -1,5 +1,5 @@
 :root {
-    font-family: 'Nunito', sans-serif;
+	font-family: "Nunito", sans-serif;
 	--color-text-red: #ff4d7c;
 }
 
@@ -9,7 +9,7 @@
 	}
 
 	body {
-		background: #FFFFFF;
+		background: #ffffff;
 		color: #141617;
 	}
 
@@ -18,61 +18,69 @@
 	}
 
 	.box {
-		background-color: #FFFFFF;
-		box-shadow:0px 0px 50px 0px rgba(0,0,0,0.25);
+		background-color: #ffffff;
+		box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.25);
 	}
-	
+
 	.tilesWrap li {
-		background: #FAFAFA;
-		border: 1px solid #F4F4F4;
+		background: #fafafa;
+		border: 1px solid #f4f4f4;
 	}
+
 	.tilesWrap li p::before {
-		background: linear-gradient(to bottom, transparent, #FAFAFA);
+		background: linear-gradient(to bottom, transparent, #fafafa);
 	}
+
 	.tilesWrap li input {
 		border: 2px solid #141617;
 	}
+
 	.tilesWrap li button {
 		border: 2px solid #141617;
 	}
+
 	.tilesWrap li button:before {
 		background: #e6e6e6;
 	}
-  }
+}
 
-  @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 	body {
 		background: #141617;
-		color: #F9F8F8;
+		color: #f9f8f8;
 	}
 
 	.version {
-		color: #F9F8F8;
+		color: #f9f8f8;
 	}
 
 	.box {
-		background-color: #1A1C1D;
+		background-color: #1a1c1d;
 	}
 
 	.tilesWrap li {
 		background: #262a2b;
 		border: 1px solid #252727;
 	}
+
 	.tilesWrap li p::before {
 		background: linear-gradient(to bottom, transparent, #262a2b);
 	}
+
 	.tilesWrap li input {
-		border: 2px solid #F9F8F8;
-		color: #F9F8F8;
+		border: 2px solid #f9f8f8;
+		color: #f9f8f8;
 	}
+
 	.tilesWrap li button {
-		border: 2px solid #F9F8F8;
-		color: #F9F8F8;
+		border: 2px solid #f9f8f8;
+		color: #f9f8f8;
 	}
+
 	.tilesWrap li button:before {
-		background: #F9F8F8;
+		background: #f9f8f8;
 	}
-  }
+}
 
 .wrapper {
 	display: flex;
@@ -106,33 +114,41 @@
 	aspect-ratio: 60/112;
 	height: 64px;
 }
+
 .title {
 	margin: 0px;
 	top: -110px;
 }
+
 .title-desc {
 	margin: 0px;
 	top: -140px;
 }
+
 .desc {
 	margin: 0px;
 	top: -150px;
 }
+
 .desc-span {
 	color: var(--color-text-red);
 }
+
 .issues {
 	color: var(--color-text-red);
 	transition: text-shadow 0.5s;
 }
+
 .issues:hover {
 	text-shadow: 0px 0px 10px var(--color-text-red);
 }
+
 .version {
 	margin: 0px;
 	font-size: 19px;
 	transition: text-shadow 0.5s;
 }
+
 .version:hover {
 	color: var(--color-text-red);
 	text-shadow: 0px 0px 10px var(--color-text-red);
@@ -166,6 +182,7 @@
 	justify-content: center;
 	flex-wrap: wrap;
 }
+
 .tilesWrap li {
 	display: inline-block;
 	flex: 1;
@@ -180,11 +197,13 @@
 	text-align: left;
 	border-radius: 25px 0px 25px 0px;
 }
+
 .tilesWrap li h3 {
 	margin-top: -25px;
 	font-size: 20px;
 	margin-bottom: 0px;
 }
+
 .tilesWrap li h4 {
 	font-size: 18px;
 	color: var(--color-text-red);
@@ -192,6 +211,7 @@
 	position: relative;
 	display: block;
 }
+
 .tilesWrap li p:has(+ .collapse:checked) {
 	--max-lines: 10;
 	--line-height: 1.1;
@@ -201,6 +221,7 @@
 	overflow: hidden;
 	position: relative;
 }
+
 .tilesWrap li p::before {
 	content: "";
 	position: absolute;
@@ -209,6 +230,7 @@
 	bottom: 0;
 	pointer-events: none;
 }
+
 .tilesWrap li input {
 	background: transparent;
 	padding: 10px 10px;
@@ -218,12 +240,15 @@
 	appearance: none;
 	margin-bottom: 20px;
 }
+
 .tilesWrap li input::before {
 	content: "Collapse";
 }
+
 .tilesWrap li input:checked::before {
 	content: "Expand";
 }
+
 .tilesWrap li a {
 	font-size: 18px;
 	color: var(--color-text-red);
@@ -231,6 +256,7 @@
 	position: relative;
 	display: block;
 }
+
 .tilesWrap li button {
 	background: transparent;
 	padding: 10px 10px;
@@ -242,8 +268,9 @@
 	cursor: pointer;
 	overflow: hidden;
 }
+
 .tilesWrap li button:before {
-	content: '';
+	content: "";
 	position: absolute;
 	height: 100%;
 	width: 120%;
@@ -255,51 +282,59 @@
 	transition: all 0.3s ease-in-out;
 
 }
+
 .tilesWrap li:hover button,
 .tilesWrap li:focus-within button {
 	transform: translateY(5px);
 	opacity: 1;
 }
+
 .tilesWrap li button:hover,
 .tilesWrap li button:focus {
 	color: #262a2b;
 }
+
 .tilesWrap li button:hover:before,
 .tilesWrap li button:focus:before {
 	left: 0;
 	opacity: 1;
 }
+
 .tilesWrap li:before {
-	content: '';
+	content: "";
 	position: absolute;
 	top: -2px;
 	left: -2px;
 	right: -2px;
 	bottom: -2px;
 	z-index: -1;
-	background: #F9F8F8;
+	background: #f9f8f8;
 	transform: skew(2deg, 2deg);
 }
+
 .tilesWrap li:before {
-	background: #E01A4F;
-	background: -webkit-linear-gradient(to right, #E01A4F, #F9C22E);
-	background: linear-gradient(to right, #E01A4F, #F9C22E);
+	background: #e01a4f;
+	background: -webkit-linear-gradient(to right, #e01a4f, #f9c22e);
+	background: linear-gradient(to right, #e01a4f, #f9c22e);
 }
 
 .censored {
 	transition: filter 1s;
 }
+
 .censored:hover {
 	filter: blur(4px);
 }
+
 .phosphor {
 	transition: text-shadow 1s;
 }
+
 .phosphor:hover {
-	text-shadow: 0px 0px 20px #F9C22E;
+	text-shadow: 0px 0px 20px #f9c22e;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
 	.header {
 		display: flex;
 		flex-direction: row;
