@@ -177,7 +177,7 @@ body {
 	position: relative;
 	display: block;
 }
-.tilesWrap li p:has(+ .expand:checked) {
+.tilesWrap li p:has(+ .collapse:checked) {
 	--max-lines: 10;
 	--line-height: 1.1;
 
@@ -204,10 +204,10 @@ body {
 	margin-bottom: 20px;
 }
 .tilesWrap li input::before {
-	content: "Expand";
+	content: "Collapse";
 }
 .tilesWrap li input:checked::before {
-	content: "Collapse";
+	content: "Expand";
 }
 .tilesWrap li a {
 	font-size: 18px;
