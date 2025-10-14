@@ -15,6 +15,7 @@ and this project follows to [Ragnarök Versioning Convention](https://shor.cz/ra
 
 - Changed the positioning of elements to adjust properly to different screen sizes
 - Tweaked for more semantic HTML -- this excludes download buttons
+- Changed the font to Nunito Regular (previously Nunito Bold)
 
 ### Fixed
 
@@ -26,6 +27,11 @@ and this project follows to [Ragnarök Versioning Convention](https://shor.cz/ra
 ### Removed
 
 - NetherPortalFix (Included in Universal Tweaks starting with version 1.15)
+
+### Optimized
+
+- Only download the exact font we need
+- Fonts are now loaded in using `<link>` which allows for parallel downloads
 
 ## Opticraft Version 1.13 2024-02-05
 
