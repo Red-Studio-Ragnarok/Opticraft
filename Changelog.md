@@ -21,6 +21,7 @@ and this project follows to [Ragnarök Versioning Convention](https://shor.cz/ra
 - Fixed the collapse/expand button (By [ceilingash](https://github.com/ceilingash) in [#23](https://github.com/Red-Studio-Ragnarok/Opticraft/pull/23))
 - Fixed Text failing WCAG AA tests
 - Fixed certain elements not being visible during keyboard navigation
+- Fixed font not having a generic family
 
 ### Removed
 

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
 :root {
+    font-family: 'Nunito', sans-serif;
 	--color-text-red: #ff4d7c;
 }
 
@@ -74,12 +75,6 @@
 		background: #F9F8F8;
 	}
   }
-
-  
-
-body {
-	font-family: 'Nunito';
-}
 
 .wrapper {
 	display: flex;
