@@ -1,6 +1,9 @@
-# idea
-out
-*.ipr
-*.iws
-*.iml
-.idea
+### Windows ###
+desktop.ini
+
+### macOS ###
+.DS_Store
+
+### IntelliJ ###
+.idea/*
+!.idea/.name
